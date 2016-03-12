@@ -2,6 +2,7 @@
 
 function add(x,y)
 {
+    if(isNaN(x)) return console.log('Input number');
     return x+y;
     
 
